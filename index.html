@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkSight Publication | Scholarly & Literary Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========================================================= -->
+    <!-- EXACT REPLICATED NAVBAR (Height: 52px, 1:1 Reference Match) -->
+    <!-- ========================================================= -->
+    <header class="navbar-wrapper">
+        <nav class="navbar" id="mainNavbar">
+            <!-- Left: Exact Logo & Publication Emblem -->
+            <div class="nav-left">
+                <a href="#" class="brand-link" title="InkSight Publication">
+                    <img src="assets/logo.png" alt="InkSight Publication Logo" class="brand-logo-img">
+                </a>
+            </div>
+
+            <!-- Center: Animated Text Slider (Bold & Black, Desktop) -->
+            <div class="nav-text-slider" id="navTextSlider" title="InkSight Publication">
+                <div class="slider-track">
+                    <div class="slide-text">INKSIGHT PUBLICATION</div>
+                    <div class="slide-text">INSPIRED BY EXPERIENCE, DRIVEN BY VALUES</div>
+                    <div class="slide-text" aria-hidden="true">INKSIGHT PUBLICATION</div>
+                </div>
+            </div>
+
+            <!-- Right: Search Bar / Icon beside Login, Sign Up -->
+            <div class="nav-right">
+                <!-- Search Box Pill (Desktop: Full Pill, Mobile: Search Icon beside Login) -->
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
+                </div>
+
+                <!-- Login Button -->
+                <button type="button" class="btn-login" id="loginBtn">Login</button>
+
+                <!-- Sign Up Pill Button (Exact Match) -->
+                <button type="button" class="btn-signup" id="signUpBtn">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Hero Section: Turn Your Manuscript Into a Published Book (Exact Reference Layout) -->
+        <section class="hero-section">
+            <!-- Decorative Dot Matrix Pattern on Top Left -->
+            <div class="hero-dot-matrix"></div>
+
+            <div class="hero-container">
+                <!-- Left Column: Hero Content & CTAs -->
+                <div class="hero-content">
+                    <!-- Pill Badge: Publish • Distribute • Learn -->
+                    <div class="hero-pill-badge">
+                        <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                            <path d="M2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
+                        </svg>
+                        <span>PUBLISH &bull; DISTRIBUTE &bull; LEARN</span>
+                    </div>
+
+                    <!-- Main Hero Heading -->
+                    <h1 class="hero-headline">
+                        Turn Your Manuscript<br class="desktop-br">
+                        Into a Published Book
+                    </h1>
+
+                    <!-- Hero Subtitle -->
+                    <p class="hero-subtext">
+                        From manuscript submission and professional design to ISBN, distribution, and royalties—InkSight
+                        provides everything you need to publish and grow as an author.
+                    </p>
+
+                    <!-- Hero Action Buttons -->
+                    <div class="hero-cta-group">
+                        <a href="#submit" class="hero-btn-primary">
+                            <span>Start Publishing</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#publications" class="hero-btn-secondary">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                <line x1="9" y1="6" x2="15" y2="6"></line>
+                                <line x1="9" y1="10" x2="15" y2="10"></line>
+                            </svg>
+                            <span>Explore Library</span>
+                        </a>
+                    </div>
+
+                    <!-- Hero Feature Highlights -->
+                    <div class="hero-features-row">
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="4" y1="4" x2="4" y2="20"></line>
+                                <line x1="7" y1="4" x2="7" y2="20"></line>
+                                <line x1="11" y1="4" x2="11" y2="20"></line>
+                                <line x1="14" y1="4" x2="14" y2="20"></line>
+                                <line x1="17" y1="4" x2="17" y2="20"></line>
+                                <line x1="20" y1="4" x2="20" y2="20"></line>
+                            </svg>
+                            <span>Free ISBN Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                <path d="M2 12h20"></path>
+                            </svg>
+                            <span>Professional Cover Design</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                            <span>Global Distribution</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path d="M14.8 9A2 2 0 0 0 13 8h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1-1.8-1">
+                                </path>
+                                <path d="M12 6v2m0 8v2"></path>
+                            </svg>
+                            <span>Transparent Royalties</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="9" rx="1"></rect>
+                                <rect x="14" y="3" width="7" height="5" rx="1"></rect>
+                                <rect x="14" y="12" width="7" height="9" rx="1"></rect>
+                                <rect x="3" y="16" width="7" height="5" rx="1"></rect>
+                            </svg>
+                            <span>Author Dashboard</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg class="feat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                                <line x1="8" y1="18" x2="16" y2="18"></line>
+                                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                            </svg>
+                            <span>eBook Publishing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Hero Image (Plain, Clean Display) -->
+                <div class="hero-visual">
+                    <a href="https://pin.it/3QJmv8Rbr" target="_blank" rel="noopener noreferrer"
+                        class="single-hero-image-wrap" title="View on Pinterest">
+                        <img src="assets/pinterest-book.jpg" alt="Featured Book" class="single-hero-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- FRESH OFF PRESS RELEASES (Aesthetic Slider: 3 Books Per View with Nav Arrows) -->
+        <!-- ========================================================= -->
+        <section class="fresh-press-section" id="freshPressSection">
+            <div class="fresh-press-container">
+                <div class="fresh-press-header-wrap">
+                    <div class="fresh-press-header">
+                        <div class="fresh-press-badge">
+                            <span>LATEST PUBLICATIONS</span>
+                        </div>
+                        <h2 class="fresh-press-title">Fresh Off Press Releases</h2>
+                        <p class="fresh-press-subtitle">Discover our newly published academic monographs, literary
+                            works, and author releases.</p>
+                    </div>
+
+                    <!-- Slider Arrow Navigation Controls -->
+                    <div class="press-nav-controls">
+                        <button type="button" class="press-arrow-btn press-prev-btn" id="pressPrevBtn"
+                            aria-label="Previous books" disabled>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <button type="button" class="press-arrow-btn press-next-btn" id="pressNextBtn"
+                            aria-label="Next books">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Carousel Viewport showing exactly 3 books -->
+                <div class="fresh-press-carousel-viewport" id="pressCarouselViewport">
+                    <div class="fresh-press-track" id="pressTrack">
+                        <!-- Book 1: Computational Mathematics -->
+                        <div class="book-card-horizontal">
+                            <div class="book-cover-wrap-h">
+                                <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1791462025584-334663171.webp"
+                                    alt="Computational Mathematics" class="book-cover-h" loading="lazy">
+                            </div>
+                            <div class="book-info-h">
+                                <h3 class="book-title-h" title="Computational Mathematics">Computational Mathematics
+                                </h3>
+                                <p class="book-author-h">DINESH NARAIN VYAS</p>
+                                <div class="book-rating-h">
+                                    <span class="rating-star">★</span>
+                                    <span class="rating-score">0.0</span>
+                                </div>
+                                <p class="book-desc-h">Computational Mathematics is designed to develop a strong...</p>
+                            </div>
+                        </div>
+
+                        <!-- Book 2: Ula Udal Aanma Thathuvam - Part II -->
+                        <div class="book-card-horizontal">
+                            <div class="book-cover-wrap-h">
+                                <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1790407547437-326234697.webp"
+                                    alt="Ula Udal Aanma Thathuvam - Part II" class="book-cover-h" loading="lazy">
+                            </div>
+                            <div class="book-info-h">
+                                <h3 class="book-title-h" title="Ula Udal Aanma Thathuvam - Part II">Ula Udal Aanma
+                                    Thathuvam - Part II</h3>
+                                <p class="book-author-h">DR.Sathish Kumar SN</p>
+                                <div class="book-rating-h">
+                                    <span class="rating-star">★</span>
+                                    <span class="rating-score">0.0</span>
+                                </div>
+                                <p class="book-desc-h">The purpose of this book is to continue the foundation
+                                    established in Part I by...</p>
+                            </div>
+                        </div>
+
+                        <!-- Book 3: Ula Udal Aanma Thathuvam - Part I -->
+                        <div class="book-card-horizontal">
+                            <div class="book-cover-wrap-h">
+                                <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1790407177950-244252587.webp"
+                                    alt="Ula Udal Aanma Thathuvam - Part I" class="book-cover-h" loading="lazy">
+                            </div>
+                            <div class="book-info-h">
+                                <h3 class="book-title-h" title="Ula Udal Aanma Thathuvam - Part I">Ula Udal Aanma
+                                    Thathuvam - Part I</h3>
+                                <p class="book-author-h">DR.Sathish Kumar SN</p>
+                                <div class="book-rating-h">
+                                    <span class="rating-star">★</span>
+                                    <span class="rating-score">0.0</span>
+                                </div>
+                                <p class="book-desc-h">The human being is a harmonious integration of Udal (Body), Manam
+                                    (Mind)...</p>
+                            </div>
+                        </div>
+
+                        <!-- Book 4: The Courage To be Yourself -->
+                        <div class="book-card-horizontal">
+                            <div class="book-cover-wrap-h">
+                                <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1790407177950-244252587.webp"
+                                    alt="The Courage To be Yourself" class="book-cover-h" loading="lazy">
+                            </div>
+                            <div class="book-info-h">
+                                <h3 class="book-title-h" title="The Courage To be Yourself">The Courage To be Yourself
+                                </h3>
+                                <p class="book-author-h">DR.Sathish Kumar SN</p>
+                                <div class="book-rating-h">
+                                    <span class="rating-star">★</span>
+                                    <span class="rating-score">0.0</span>
+                                </div>
+                                <p class="book-desc-h">A transformative journey into self-discovery, authenticity, and
+                                    personal freedom...</p>
+                            </div>
+                        </div>
+
+                        <!-- Book 5: Special Edition Release -->
+                        <div class="book-card-horizontal">
+                            <div class="book-cover-wrap-h">
+                                <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1789111021607-708023330.webp"
+                                    alt="Special Edition Release" class="book-cover-h" loading="lazy">
+                            </div>
+                            <div class="book-info-h">
+                                <h3 class="book-title-h" title="Special Edition Release">Special Edition Release</h3>
+                                <p class="book-author-h">InkSight Collective</p>
+                                <div class="book-rating-h">
+                                    <span class="rating-star">★</span>
+                                    <span class="rating-score">0.0</span>
+                                </div>
+                                <p class="book-desc-h">An exquisite anthology exploring the modern dynamics of thought
+                                    and creative literature...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- COMING SOON BOOKS (Horizontal Cards Matching Reference Image) -->
+        <!-- ========================================================= -->
+        <section class="coming-soon-section" id="comingSoonSection">
+            <div class="coming-soon-container">
+                <div class="coming-soon-header">
+                    <div class="coming-soon-badge">
+                        <span>UPCOMING RELEASES</span>
+                    </div>
+                    <h2 class="coming-soon-title">Coming Soon</h2>
+                    <p class="coming-soon-subtitle">Exciting new titles currently in production. Be the first to explore
+                        what's next from our authors.</p>
+                </div>
+
+                <!-- 3 Books Displayed in a Clean Aesthetic Row (Horizontal Card Layout) -->
+                <div class="coming-soon-row">
+                    <!-- Book 1: Philosophy for Life -->
+                    <div class="book-card-horizontal">
+                        <div class="book-cover-wrap-h">
+                            <span class="coming-soon-pill">Coming Soon</span>
+                            <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1791462623038-389755326.webp"
+                                alt="Philosophy for Life" class="book-cover-h" loading="lazy">
+                        </div>
+                        <div class="book-info-h">
+                            <h3 class="book-title-h" title="Philosophy for Life">Philosophy for Life</h3>
+                            <p class="book-author-h">InkSight Authors</p>
+                            <div class="book-rating-h">
+                                <span class="rating-star">★</span>
+                                <span class="rating-score">0.0</span>
+                            </div>
+                            <p class="book-desc-h">Timeless wisdom and practical insights for modern living, ethical
+                                thinking, and inner peace...</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 2: Clearer Thinking -->
+                    <div class="book-card-horizontal">
+                        <div class="book-cover-wrap-h">
+                            <span class="coming-soon-pill">Coming Soon</span>
+                            <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1792134766838-176726086.webp"
+                                alt="Clearer Thinking" class="book-cover-h" loading="lazy">
+                        </div>
+                        <div class="book-info-h">
+                            <h3 class="book-title-h" title="Clearer Thinking">Clearer Thinking</h3>
+                            <p class="book-author-h">Cognitive Sciences Lab</p>
+                            <div class="book-rating-h">
+                                <span class="rating-star">★</span>
+                                <span class="rating-score">0.0</span>
+                            </div>
+                            <p class="book-desc-h">Empowering minds with sharper cognitive frameworks, rational tools,
+                                and decision models...</p>
+                        </div>
+                    </div>
+
+                    <!-- Book 3: SOMEWHERE BETWEEN LOVE AND LETTING GO -->
+                    <div class="book-card-horizontal">
+                        <div class="book-cover-wrap-h">
+                            <span class="coming-soon-pill">Coming Soon</span>
+                            <img src="https://api.inksightpublication.com/uploads/books/covers/new-book-frontCoverPath-1792412971962-346903292.webp"
+                                alt="SOMEWHERE BETWEEN LOVE AND LETTING GO" class="book-cover-h" loading="lazy">
+                        </div>
+                        <div class="book-info-h">
+                            <h3 class="book-title-h" title="SOMEWHERE BETWEEN LOVE AND LETTING GO">SOMEWHERE BETWEEN
+                                LOVE AND LETTING GO</h3>
+                            <p class="book-author-h">Literary Arts Circle</p>
+                            <div class="book-rating-h">
+                                <span class="rating-star">★</span>
+                                <span class="rating-score">0.0</span>
+                            </div>
+                            <p class="book-desc-h">A deeply moving collection of verses and memoirs touching the soul of
+                                modern relationships...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Interactive Login / Sign Up Modal -->
+    <div class="modal-overlay" id="authModal">
+        <div class="modal-card">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <img src="assets/logo.png" alt="InkSight Logo" style="height: 36px; margin-bottom: 12px;">
+                <h3 id="modalTitle">Welcome Back</h3>
+                <p id="modalSubtitle">Access the InkSight repository and subscription library</p>
+            </div>
+            <form class="modal-form" id="authForm"
+                onsubmit="event.preventDefault(); alert('Form submitted successfully!'); authModal.classList.remove('active');">
+                <div class="form-group" id="nameField" style="display: none;">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Dr. Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="author@university.edu" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="modal-btn" id="modalSubmitBtn">Sign In</button>
+            </form>
+            <div class="modal-toggle">
+                <span id="modalToggleText">Don't have an account?</span>
+                <a href="#" id="modalToggleLink">Create one</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
